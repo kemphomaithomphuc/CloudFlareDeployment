@@ -1,0 +1,69 @@
+# ===============================
+# ENVIRONMENT VARIABLES & SECRETS
+# ===============================
+# !!! CRITICAL: Never commit these !!!
+.env
+.env.local
+.env.production
+.env.development
+*.env
+!env.template
+
+# ===============================
+# BUILD & TARGET
+# ===============================
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===============================
+# IDE - Spring Tools Suite
+# ===============================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ===============================
+# IDE - IntelliJ IDEA
+# ===============================
+.idea
+*.iws
+*.iml
+*.ipr
+
+# ===============================
+# IDE - NetBeans
+# ===============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===============================
+# IDE - VS Code
+# ===============================
+.vscode/
+
+# ===============================
+# LOGS
+# ===============================
+*.log
+logs/
+
+# ===============================
+# OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
